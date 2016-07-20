@@ -1,6 +1,6 @@
-# trevni
+# trenivert
 
-Free software to double your integers.
+Random practice programs
 
 #Download:
 
