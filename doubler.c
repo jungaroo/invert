@@ -9,14 +9,14 @@ int main()
   int number;
   int doublenumber;
   
-  printf("Hello, please input a number!\n");
-  scanf("%d,&number")
+  printf("Hello, please input an integer!\n");
+  scanf("%d",&number")
   
   doublenumber = number * 2
   
   printf("Ok, I will now double your number. Please wait..");
   
-  printf("You input $number and the result is $doublenumber");
+  printf("You input %d and the result is %d",number,doublenumber);
   
   return 0;
 
