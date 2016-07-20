@@ -9,6 +9,7 @@ git clone https://github.com/odoland/trevni/
 #Installation:
 
 cd trevni
+
 gcc doubler.c
 
 #Running:
