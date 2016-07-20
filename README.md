@@ -2,21 +2,21 @@
 
 Free software to double your integers.
 
-Download:
+#Download:
 
 git clone https://github.com/odoland/trevni/
 
-Installation:
+#Installation:
 
 cd trevni
 gcc doubler.c
 
-Running:
+#Running:
 
 ./a.out
 
 
-FAQ
+#FAQ
 
 Can you double decimals?
 Not yet
