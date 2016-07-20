@@ -10,9 +10,9 @@ int main()
   int doublenumber;
   
   printf("Hello, please input an integer!\n");
-  scanf("%d",&number")
+  scanf("%d",&number");
   
-  doublenumber = number * 2
+  doublenumber = number * 2;
   
   printf("Ok, I will now double your number. Please wait..");
   
