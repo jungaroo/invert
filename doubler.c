@@ -3,7 +3,7 @@
 
 // This program will double your number!
 
-int main()
+int main(void)
 {
   
   int number;
