@@ -1,23 +1,15 @@
-# trenivert
+# nivert
 
-Random practice programs
+programs for analysis
 
 #Download:
 
-git clone https://github.com/odoland/trevni/
+git clone https://github.com/odoland/nivert/
 
-#Installation:
+#Compile
 
-cd trevni
-
-gcc doubler.c
+use gcc
 
 #Running:
 
 ./a.out
-
-
-#FAQ
-
-Can you double decimals?
-Not yet
