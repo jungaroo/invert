@@ -1,6 +1,6 @@
-# nivert
+# Nivert
 
-programs for analysis
+Simple programs for ngs
 
 #Download:
 
@@ -8,8 +8,13 @@ git clone https://github.com/odoland/nivert/
 
 #Compile
 
-use gcc
+$gcc -o
 
-#Running:
+#Info
 
-./a.out
+reverser:
+  reads input file in reverse and outputs in txt file. 
+complementer:
+  reads input file and outputs complement in txt file.
+  
+reverse-complement: use both programs sequentially.
