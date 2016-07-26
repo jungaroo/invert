@@ -14,6 +14,7 @@ $gcc -o
 
 reverser:
   reads input file in reverse and outputs in txt file. 
+
 complementer:
   reads input file and outputs complement in txt file.
   
