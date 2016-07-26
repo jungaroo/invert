@@ -3,10 +3,11 @@
 int main(void)
 {
   // Opening input and output files for read/write
+  // Under fopen, place the full path to your input and output files. Ex: /Users/elisaur/Desktop/chr21.fa
   FILE *input;
   FILE *output;
-  input=fopen("/Users/elisaur/Desktop/chr9.fa", "r");
-  output=fopen("/Users/elisaur/Desktop/invchr9.txt", "w");
+  input=fopen("/full/path/to/your/input/file.fa", "r");
+  output=fopen("/full/path/to/your/output/file.fa", "w");
   
   if (input == NULL) {printf("error opening input\n");}
   if (output == NULL){printf("error opening output\n");}
