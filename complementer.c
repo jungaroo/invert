@@ -5,7 +5,7 @@ int main(void)
 
   FILE *input;
   FILE *output;
-
+  // Open files for read and write. Replace /full/path/to/file with your desired file and output file destinations. Ex: /Users/elisaur/Desktop/chr21.fa
   input=fopen("/full/path/to/file.fa","r");
   output=fopen("/full/path/to/outputfile.fa","w");
 
@@ -17,7 +17,7 @@ int main(void)
   int sequencelength = ftell(input);
   printf("Sequence length from ftell is %d.\n", sequencelength);
 
-  //Read contents of input file and complement them onto outputfile 
+  //Read contents of input file and then complement them onto outputfile. Maintains upper/lower case and N 
 
   int i;
   for(i=0;i<=sequencelength;i++)
@@ -64,8 +64,8 @@ int main(void)
                 }
 
       }
-
+//Close the files
   fclose(input);
   fclose(output);
-return 0;
+
 }
