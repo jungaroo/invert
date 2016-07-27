@@ -1,10 +1,10 @@
-# Nivert
+# invert
 
-Simple programs for ngs
+Simple programs for NGS
 
-#Download:
+#Download from command-line
 
-git clone https://github.com/odoland/nivert/
+git clone https://github.com/odoland/invert/
 
 #Compile
 
@@ -12,10 +12,10 @@ $gcc -o
 
 #Info
 
-reverser:
+reverser.c :
   reads input file in reverse and outputs in txt file. 
 
-complementer:
+complementer.c
   reads input file and outputs complement in txt file.
   
-reverse-complement: use both programs sequentially.
+You can reverse-complement if you use both programs sequentially.
