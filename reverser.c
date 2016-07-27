@@ -22,12 +22,10 @@ int main(void)
   int i;  
   for(i=sequencelength;i>=0;i--)
     {   
-        //printf("Sequence length is: %d.",sequencelength);
         fseek(input,i, SEEK_SET);
         fputc(fgetc(input),output);
-        //printf("Success fputc %d\n",i);
     }   
-
+ //Close the files
   fclose(input);
   fclose(output); 
 }
