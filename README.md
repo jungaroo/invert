@@ -19,3 +19,4 @@ complementer.c
   reads input file and outputs complement in txt file.
   
 You can reverse-complement if you use both programs sequentially.
+Alternatively, you can open up the complementer.c file and swap out the for loop. Recompile and execute
