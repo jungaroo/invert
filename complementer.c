@@ -19,8 +19,13 @@ int main(void)
 
   //Read contents of input file and then complement them onto outputfile. Maintains upper/lower case and N 
 
+  
+
+  
   int i;
-  for(i=0;i<=sequencelength;i++)
+//Swap the for loop below if you want to also reverse-complement.  
+//for(i=sequencelength;i>=0;i--)  //Read in reverse
+  for(i=0;i<=sequencelength;i++)  //Read in forward
     {
        // printf("Sequence length is: %d.",sequencelength);
         fseek(input,i, SEEK_SET);
