@@ -1,0 +1,9 @@
+Useful Excel commands
+
+
+For alignment of two columns: B and F
+
+=IF(ISNA(MATCH(B1,F:F,0)),"",INDEX(F:F,MATCH(B1,F:F,0)))
+
+For binning - 10
+=AVERAGE(INDEX(M:M,1+10*(ROW()-1)):INDEX(M:M,10*(ROW())))
