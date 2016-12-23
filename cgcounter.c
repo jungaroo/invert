@@ -27,7 +27,7 @@ int main(int argc,char** argv)
                 }
             case '\n':break;
             case 'g':case 'G': {
-                if(prev=='C') N++;
+                //if(prev=='C') N++; This will count GC, but we are only looking for CG.
                 prev='G';
                 break;
                 }
