@@ -1,6 +1,6 @@
 # invert
 
-Simple programs for NGS or GEO data analysis
+Simple programs for NGS or GEO data analysis for UCSF Yu Research Lab
 
 #Download from command-line
 
